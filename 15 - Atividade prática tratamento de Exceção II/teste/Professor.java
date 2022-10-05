@@ -1,4 +1,6 @@
 package teste;
+import java.util.Scanner;
+
 public class Professor{
     String nome;
     String idade;
@@ -28,10 +30,14 @@ public class Professor{
         this.endereco = endereco;
         this.dependente = dependente;
     }
-    public static void addProfessor(Professor professor){
-        vetor[contador] = professor;
-        contador++;
-        System.out.println("Professor "+professor.nome+" adicionado com sucesso!");
+    public void addProfessor(Professor professor) throws ProfessorCadastradoException{
+        if (this.contador >= 1){throw new ProfessorCadastradoException("Número máximo de professores atingido!");}
+        if (existeProfessor(professor)){throw new ProfessorCadastradoException("Professor já cadastrado!");}
+        else{
+            vetor[contador] = professor;
+            contador++;
+            System.out.println("Professor "+professor.nome+" adicionado com sucesso!");
+        }
     }
     public void getAll(){
         System.out.println("Nome    : "+this.nome);
@@ -45,6 +51,28 @@ public class Professor{
             System.out.println("Dependente Idade: "+this.dependente.idade);
             System.out.println("Dependente Sexo : "+this.dependente.sexo);
         }
+    }
+    public void pesquisarTodos(){
+        for (int i=0;i<Professor.contador;i++){
+            Professor professor = Professor.vetor[i];
+            professor.getAll();
+        }
+    }
+    public void pesquisar(String nome){
+        for (int i=0;i<Professor.contador;i++){
+            Professor professor = Professor.vetor[i];
+            if (professor.nome.equals(nome)){professor.getAll();break;}
+            else if (i==professor.contador){System.out.println("Professor não cadastrado!");break;}
+        }
+    }
+    public boolean existeProfessor(Professor professorOriginal){
+        boolean existe = false;
+        for (int i=0;i<Professor.contador;i++){
+            Professor professor = Professor.vetor[i];
+            if (professor.nome.equals(professorOriginal.nome)){existe = true;return existe;}
+        }
+
+        return existe;
     }
 
 }

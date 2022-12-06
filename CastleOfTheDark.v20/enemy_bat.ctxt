@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=enemy_bat
+comment1.params=
+comment1.target=enemy_bat()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ frames()
+comment4.params=
+comment4.target=void\ colisao()
+comment5.params=
+comment5.target=void\ seguir()
+numComments=6

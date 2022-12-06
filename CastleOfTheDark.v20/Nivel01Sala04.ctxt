@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Nivel01Sala04
+comment1.params=pos_x\ pos_y
+comment1.target=Nivel01Sala04(int,\ int)
+comment2.params=n
+comment2.target=void\ SpawnInimigo(int)
+numComments=3

@@ -1,0 +1,9 @@
+resp
+	2)	
+		a
+			Pois os atributos da classe endereço não são privados, pertencem a uma classe publica
+			Pq ele está protected
+		b
+			O valor da matricula do professor vem do valor da matriculo do objeto funcionário
+		c
+			

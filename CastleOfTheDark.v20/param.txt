@@ -1,0 +1,16 @@
+dporta
+	norte
+		x = 520 xp = 520
+		y = 25  yp = 390
+	sul
+		x = 520 xp = 520
+		y = 456 yp = 90
+	leste
+		x = 998 xp = 90
+		y = 230 yp = 230
+	oeste
+		x = 27  xp = 930
+		y = 230 yp = 230
+
+
+testar a função exeção na sombra fogo 

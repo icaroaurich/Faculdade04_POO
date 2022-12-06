@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Player_1
+comment1.params=
+comment1.target=void\ act()
+comment2.params=x\ y\ direcao
+comment2.target=void\ atacar(int,\ int,\ int)
+comment3.params=x\ y
+comment3.target=void\ mover(int,\ int)
+comment4.params=
+comment4.target=void\ vidaM()
+comment5.params=
+comment5.target=void\ perderVida()
+comment6.params=
+comment6.target=void\ ganharVida()
+comment7.params=
+comment7.target=void\ criar()
+comment8.params=inimigo
+comment8.target=void\ receberDano(greenfoot.Actor)
+numComments=9

@@ -1,0 +1,9 @@
+Roteiro apresentação
+1 - Boa noite
+2 - Apresentar o game até a sala do boss
+3 - menu
+4 - Cutscene
+5 - Mecanica das salas
+6 - Mecanica das portas
+7 - Player (atacar e ser atacado)
+8 - Apredizados de OO (Sobrecarga, Herança)

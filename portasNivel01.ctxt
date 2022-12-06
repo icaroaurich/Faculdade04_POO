@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=portasNivel01
+comment1.params=
+comment1.target=void\ act()
+comment2.params=world
+comment2.target=void\ porta0101(greenfoot.World)
+comment3.params=world
+comment3.target=void\ porta0102(greenfoot.World)
+comment4.params=world
+comment4.target=void\ porta0103(greenfoot.World)
+comment5.params=world
+comment5.target=void\ porta0104(greenfoot.World)
+comment6.params=world
+comment6.target=void\ porta0105(greenfoot.World)
+comment7.params=world
+comment7.target=void\ porta0106(greenfoot.World)
+numComments=8

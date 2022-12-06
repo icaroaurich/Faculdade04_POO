@@ -1,0 +1,20 @@
+public class A{
+...
+public A(){...}
+public A(int x){...}
+public void m1(){...}
+public void m1(int h){...}}
+
+public class B extends A{
+...
+public B(){...}
+public void m1(){...}
+public void m1(double x, double y){...}
+public void m2(){...}}
+
+2.1 - Quais métodos realizam sobrescrita? Por quê?
+Temos 2 sobrescritas na classe B do método m1, pois ele foi criado na class A, de onde ele tem herança, um método criado sem parâmetros, e outro com.
+
+2.2 - Quais métodos realizam sobrecarga? Por quê?
+Na classe A, temos 2 sobrecargas, onde é definido um constutor com e sem parâmetro. Temos também 2 métodos m1, um com e um sem parâmetro.
+A classe B tem uma sobrecarga com um método sem parâmetros, e m1 com 2 parâmetros.

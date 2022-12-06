@@ -1,0 +1,24 @@
+01 - 
+	InputMismatchException = Informar str em um atributo do tipo int
+	
+	ArrayIndexOutOfBoundsException = Adicionar um registro maior que o array
+	
+	NullPointerException = Tentar visualizar um atributo em um obj que não existe
+	
+	illegal parameters = Passar um valor incorreto por parâmetro.
+	
+	class cast exception = Quando tenta converter um objeto para outra classe que não é uma instância possível. (converter str para int)
+	
+02 - Pois a exceção deve ser utilizada para tratamento de erros conhecidos (informar str em um atributo do tipo int) ou evitar erros e códigos na tela do cliente, já que tem o intuito de ocultar possíveis problemas no código.
+
+03 - Finally, cath, ou para quem estiver na próxima ordem de execução
+
+04 - Passa ao método pai, ou seja á quem chamou a função, subindo até chegar a thread.
+
+05 - A JMV não será capaz de destinguir para onde irá o tratamento.
+
+06 - Para casos onde independente de sucesso ou falha, é necessário executar uma linha de comando (EX: fechar conexão com banco de dados)
+
+07 - Retorna a classe pai (invocadora do método)
+
+08 - Reinicados após um novo ciclo, despachados eventualmente pelo garbage collector.
